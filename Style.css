@@ -9,14 +9,20 @@
 
 }
 /*-----Share-----*/
+.bg-gradient1{
+    background: rgb(2, 1, 10);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%,
+     rgba(6, 55, 146, 0.429) 0%,
+     rgb(7, 41, 114) 0%, 
+     rgb(2, 4, 97) 100%);
+}
 .bg-gradient{
-    background: rgb(2,0,36);
+    background: rgb(7, 4, 61);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%,
      rgba(71,112,186,0.4290091036414566) 0%,
      rgba(18,150,241,1) 0%, 
      rgba(0,212,255,1) 100%);
 }
-
 section{
     position: relative;
     overflow: hidden;
@@ -117,4 +123,31 @@ background-image: url(./img/fondo\ 7.jpg);
 /*---------Section-fourth---*/
 .section-fourth{
     padding: 75px 0px;
+}
+/*---------Section-fifth---*/
+.section-fifth{
+    margin: 50px 0px;
+
+}
+.box{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 11px rgb(0, 0, 0, 0.18);
+    border-radius: 25px;
+}
+.price-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.price-tag{
+    font-weight: bold;
+    color: cornflowerblue;
+}
+.box-text{
+    margin-top: 30px;
+    text-align: justify;
+    color: #484848;
+    font-size: 13px;
 }
